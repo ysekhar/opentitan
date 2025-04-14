@@ -27,6 +27,8 @@
   The actual physical controller is highly parameterized (number of banks, number of pages for each bank, number of words and word size for each page, and number of read buffers) and supports XEX scrambling configurable by software, as well as two types of ECC support configurable on a page boundary.
   '''
   // Unique comportable IP identifier defined under KNOWN_CIP_IDS in the regtool.
+  // Testing commit via vscode
+
   cip_id:             "8",
   design_spec:        "../doc",
   dv_doc:             "../doc/dv"
